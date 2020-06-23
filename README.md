@@ -1,12 +1,18 @@
 # Git-Commands
 
 git config
+
 Uno de los comandos más usados en git es git config, que puede ser usado para establecer una configuración específica de usuario, como sería el caso del email, un algoritmo preferido para diff, nombre de usuario y tipo de formato, etc… Por ejemplo, el siguiente comando se usa para establecer un email:
+
 git config --global user.email sam@google.com
+
 git init
+
 Este comando se usa para crear un nuevo repertorio GIT:
 git init
+
 git add
+
 Este comando puede ser usado para agregar archivos al index. Por ejemplo, el siguiente comando agrega un nombre de archivo temp.txt en el directorio local del index:
 git add temp.txt
 git clone
