@@ -21,11 +21,15 @@
       Iniciamos la cuenta SSH
       
       eval $(ssh-agent -s) 
+      
       Agent pid 793
       
       Agregamos la identidad
+      
       ssh-add ~/.ssh/ssh
+      
       Enter passphrase for /c/Users/opc/.ssh/ssh:
+      
       Identity added: /c/Users/opc/.ssh/ssh (alarcon_osorio@hotmail.com)
 
       
