@@ -7,12 +7,13 @@
   
 3. Ese contenido se pega en la opciones de GITHUB SSH And GPG Keys
 
-Pasos alternos para generar una nueva clave SSH
-Abre el terminal Git Bash.
+   Pasos alternos para generar una nueva clave SSH
+      Abre el terminal Git Bash.
 
-Pega el siguiente texto, que sustituye tu dirección de correo electrónico en GitHub Enterprise.
+      Pega el siguiente texto, que sustituye tu dirección de correo electrónico en GitHub Enterprise.
 
-$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+      $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
-Esto crea una nueva clave ssh usando el correo electrónico proporcionado como etiqueta.
-La crea en la ruta del servidor C:\Users\opc\.ssh 
+      Esto crea una nueva clave ssh usando el correo electrónico proporcionado como etiqueta.
+
+      La crea en la ruta del servidor C:\Users\opc\.ssh 
