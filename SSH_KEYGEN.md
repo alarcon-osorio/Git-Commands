@@ -5,7 +5,7 @@
 2. Copiar contenido de id_rsa.pub --> Creada en la ruta opc/
    En PC usado
   
-3. Ese contenido se pega en la opciones de GITHUB SSH And GPG Keys
+3. Ese contenido se pega en las opciones de la cuenta GITHUB --> SSH And GPG Keys
 
    Pasos alternos para generar una nueva clave SSH
       Abre el terminal Git Bash.
@@ -17,3 +17,16 @@
       Esto crea una nueva clave ssh usando el correo electrónico proporcionado como etiqueta.
 
       La crea en la ruta del servidor C:\Users\opc\.ssh 
+      
+      Iniciamos la cuenta SSH
+      
+      eval $(ssh-agent -s) 
+      Agent pid 793
+      
+      Agregamos la identidad
+      ssh-add ~/.ssh/ssh
+      Enter passphrase for /c/Users/opc/.ssh/ssh:
+      Identity added: /c/Users/opc/.ssh/ssh (alarcon_osorio@hotmail.com)
+
+      
+
