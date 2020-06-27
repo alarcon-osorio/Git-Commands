@@ -18,13 +18,13 @@
 
       La crea en la ruta del servidor C:\Users\opc\.ssh 
       
-      Iniciamos la cuenta SSH
+      --> Iniciamos la cuenta SSH
       
       eval $(ssh-agent -s) 
       
       Agent pid 793
       
-      Agregamos la identidad
+      --> Agregamos la identidad
       
       ssh-add ~/.ssh/ssh
       
