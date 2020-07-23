@@ -2,7 +2,7 @@
 
 1. La creacion de la llave publica y privada se puede hacer con Putty Keygen
 
-2. Copiar contenido de id_rsa.pub --> Creada en la ruta Server Local
+2. Copiar contenido de name_your_key.pub --> Creada en la ruta Server Local
   
 3. Ese contenido se pega en las opciones de la cuenta GITHUB(En la foto) --> SSH And GPG Keys
 
