@@ -38,5 +38,14 @@
       
 4. Volver al paso 2
 
+_Nota: Si al hacer git push no funciona luego de cerrar y abrir Git, realizar estos comandos nuevamente en la ruta local de los repos_
+      
+      eval $(ssh-agent -s) 
+      
+      Agent pid 793
+      
+      --> Agregamos la identidad
+      
+      ssh-add ~/.ssh/name_your_key
       
 
