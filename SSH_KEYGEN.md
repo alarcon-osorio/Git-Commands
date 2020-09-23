@@ -20,7 +20,7 @@
 
       Esto crea una nueva clave ssh usando el correo electrónico proporcionado como etiqueta.
 
-      La crea en la ruta del servidor C:\Users\your_user\.ssh 
+      La crea en la ruta del servidor C:\Users'\'your_user'\'.ssh'\'
       
       --> Iniciamos la cuenta SSH
       
