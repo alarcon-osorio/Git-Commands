@@ -53,6 +53,9 @@ El comando git se usa para conectar a un repositorio remoto. El siguiente comand
 Este comando te permite conectar al usuario con el repositorio local a un servidor remoto:
 git remote add origin <93.188.160.58>
 
+     git remote add origin url/al/fork/de/github.git
+Si no existe el remote origin, entonces agregalo de la siguiente manera:
+
      git branch
      
 Este comando se usa para listar, crear o borrar ramas. Para listar todas las ramas se usa:
@@ -164,3 +167,5 @@ git fsck
      git rebase
 Este comando se usa para la re aplicación de los compromisos en otra rama. Por ejemplo:
 git rebase master
+
+     
