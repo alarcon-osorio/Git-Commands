@@ -48,4 +48,14 @@ _Nota: Si al hacer git push no funciona luego de cerrar y abrir Git, realizar es
       
       ssh-add ~/.ssh/name_your_key
       
+_Repos Nuevos 
+
+echo "# Android" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/alarcon-osorio/Android.git
+git push -u origin main
+      
 
