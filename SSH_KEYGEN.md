@@ -36,6 +36,10 @@
       
       Identity added: /c/Users/opc/.ssh/ssh (your_email@example.com)
       
+      Probra Conexion 
+      
+      ssh -T git@github.com
+      
 4. Volver al paso 2
 
 _Nota: Si al hacer git push no funciona luego de cerrar y abrir Git, realizar estos comandos nuevamente en la ruta local de los repos_
@@ -47,7 +51,9 @@ _Nota: Si al hacer git push no funciona luego de cerrar y abrir Git, realizar es
       --> Agregamos la identidad
       
       ssh-add ~/.ssh/name_your_key
-      
+ 
+ ----------------------------------------------
+ 
 _Repos Nuevos_
 
 echo "# Android" >> README.md
@@ -59,6 +65,8 @@ git add README.md
 git commit -m "first commit"
 
 git branch -M main
+
+--- No olvidar ya si es para repos nuevos o existentes olvidaos 
 
 git remote add origin https://github.com/alarcon-osorio/Android.git
 
