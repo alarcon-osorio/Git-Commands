@@ -48,7 +48,7 @@ _Nota: Si al hacer git push no funciona luego de cerrar y abrir Git, realizar es
       
       ssh-add ~/.ssh/name_your_key
       
-_Repos Nuevos 
+_Repos Nuevos_
 
 echo "# Android" >> README.md
 
